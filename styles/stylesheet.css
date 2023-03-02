@@ -1,0 +1,41 @@
+/* website styling */
+body{
+    background-color: powderblue;
+}
+nav{
+    background-color: rgb(93, 165, 233);
+    padding: 1px;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: rgb(45, 121, 92);
+    text-decoration: none;
+    font-size: 200%;
+    background-color: rgb(193, 206, 195);
+    border: 2px solid rgb(91, 224, 162);
+    border-radius: .25em;
+    padding: 3px;
+}
+a:hover{
+    background-color: rgb(0, 162, 255);
+}
+
+/* content styling */
+img{
+    float: left; margin-right: 1%; /* floats image to the left */
+}
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+/* ID css */
+#copyright{color: grey; font-size: 80%;}
+
+/* class */
+.center{text-align: center;}
+.right{text-align: right;}
+.clear{clear: both;} /* clears floats - place on elements where float shouldnt effect to clear a float */
