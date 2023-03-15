@@ -1,6 +1,12 @@
 /* website styling */
 body{
     background-color: rgb(235, 198, 131);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    background-color: rgb(165, 22, 12);
+    padding: 1px;
 }
 nav{
     background-color: rgb(165, 22, 12);
@@ -25,21 +31,23 @@ a:hover{
 }
 footer{
     clear: both;
-}
-
-/* content styling */
-img{
-    float: left; margin-right: 1%; /* floats image to the left */
-}
-table{
+    background-color: rgb(165, 22, 12);
+    padding: 1px;
+    position: fixed;
     width: 100%;
-    border: 1px solid black;
+    bottom: 0px;
+    left: 0px;
 }
 
 /* ID css */
-#copyright{color: grey; font-size: 80%;}
+#copyright{color: rgb(235, 198, 131); font-size: 80%;}
+#active{
+    border: 2px solid rgb(238, 183, 5);
+    background-color: rgb(165, 22, 12);
+    color: rgb(238, 183, 5);
+}
 
 /* class */
-.center{text-align: center;}
+.floatLeft{float: left; margin-right: .5%;}
 .right{text-align: right;}
 .clear{clear: both;} /* clears floats - place on elements where float shouldnt effect to clear a float */
