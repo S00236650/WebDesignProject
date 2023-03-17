@@ -38,6 +38,9 @@ footer{
     bottom: 0px;
     left: 0px;
 }
+section p{
+    color: black;
+}
 
 /* ID css */
 #copyright{color: rgb(235, 198, 131); font-size: 80%;}
