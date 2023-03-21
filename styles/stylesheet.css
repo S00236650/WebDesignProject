@@ -41,6 +41,9 @@ footer{
 section p{
     color: black;
 }
+section h1{
+    color: black;
+}
 
 /* ID css */
 #copyright{color: rgb(235, 198, 131); font-size: 80%;}
