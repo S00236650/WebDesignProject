@@ -44,6 +44,9 @@ section p{
 section h1{
     color: black;
 }
+main section{
+    clear: both;
+}
 
 /* ID css */
 #copyright{color: rgb(235, 198, 131); font-size: 80%;}
