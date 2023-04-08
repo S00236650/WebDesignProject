@@ -29,6 +29,12 @@ a:hover{
     background-color: rgb(235, 198, 131);
     color: rgb(165, 22, 12);
 }
+main{
+    margin-bottom: 50px;
+}
+main section{
+    clear: both;
+}
 footer{
     clear: both;
     background-color: rgb(165, 22, 12);
@@ -43,9 +49,6 @@ section p{
 }
 section h1{
     color: black;
-}
-main section{
-    clear: both;
 }
 
 /* ID css */
