@@ -44,6 +44,14 @@ footer{
     bottom: 0px;
     left: 0px;
 }
+footer ul li{
+    display: inline;
+    text-decoration: underline;
+    color: rgb(235, 198, 131);
+}
+footer ul li a{
+    color: rgb(235, 198, 131);
+}
 section p{
     color: black;
 }
